@@ -1,0 +1,21 @@
+.nav-bar {
+    padding: 15px 65px;
+    background: #c01f33;
+}
+
+button{
+    float: right;
+}
+
+@media only screen and (max-width: 450px){
+    .nav-bar {
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .nav-bar button{
+        margin-top: 10px;
+    }
+}
+

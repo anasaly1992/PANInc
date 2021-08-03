@@ -1,0 +1,66 @@
+h1 {
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.block {
+    display: block;
+    width: 100px;
+    margin: 15px auto;
+}
+.share-number {
+    font-size: 35px;
+    font-weight: bold;
+}
+.social {
+    border: 1px solid #80808052;
+    border-radius: 5px;
+}
+hr{
+    margin-top:  0 !important;
+    margin-bottom: 0 !important;
+}
+
+.gray{
+    color: gray;
+}
+
+.articale-content{
+    margin: 20px 0;
+}
+.buttons{
+    margin-top: 50px;
+}
+
+.comment {
+    border: 1px solid #80808059;
+    border-radius: 5px;
+    padding:30px 20px;
+    margin: 20px 0;
+}
+.img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+.img img {
+    border-radius: 50%;
+}
+.name {
+    font-weight: bold;
+}
+.date{
+    color: #808080d6;
+}
+
+.articale-details .articale-details-img {
+    height: 500px;
+}
+
+@media only screen and (max-width: 450px){
+    .social{
+        width: 70%;
+        margin: 10px auto;
+    }
+}
